@@ -1,0 +1,463 @@
+INFO 2023-06-29 11:43:33,683 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 11:56:28,815 autoreload Watching for file changes with StatReloader
+WARNING 2023-06-29 11:56:44,316 log Not Found: /favicon.ico
+INFO 2023-06-29 12:06:12,753 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:06:12,977 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:06:29,652 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/serializers.py changed, reloading.
+INFO 2023-06-29 12:06:29,851 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:06:55,669 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/models.py changed, reloading.
+INFO 2023-06-29 12:06:55,821 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:07:17,577 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/models.py changed, reloading.
+INFO 2023-06-29 12:07:17,765 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:08:29,806 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/models.py changed, reloading.
+INFO 2023-06-29 12:08:30,000 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:11:59,966 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/models.py changed, reloading.
+INFO 2023-06-29 12:12:00,201 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:20:06,967 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:20:07,144 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:20:29,781 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:20:29,941 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:20:31,071 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:20:31,237 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:22:54,210 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:22:54,374 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:23:22,269 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:23:22,442 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:23:42,213 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:23:42,373 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 12:23:43,550 autoreload /Users/ryanchampin/Development/importlio/api/importlio/proxy/views.py changed, reloading.
+INFO 2023-06-29 12:23:43,690 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 14:18:30,159 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:17:06,125 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:51:01,898 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:54:24,147 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-06-29 16:54:24,315 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:54:25,428 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-06-29 16:54:25,619 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:55:02,826 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 16:55:03,007 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:55:51,436 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 16:55:51,600 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:56:41,988 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/models.py changed, reloading.
+INFO 2023-06-29 16:56:42,217 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 16:59:06,906 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 16:59:07,166 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:06:12,075 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:06:12,350 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:06:34,221 autoreload Watching for file changes with StatReloader
+WARNING 2023-06-29 17:07:13,269 log Bad Request: /product/
+WARNING 2023-06-29 17:07:13,363 log Not Found: /favicon.ico
+INFO 2023-06-29 17:08:52,600 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:08:52,847 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:08:54,049 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:08:54,240 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:09:13,847 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:09:14,019 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:12:43,775 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:12:43,972 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:12:45,151 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:12:45,343 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:12:58,740 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:12:58,911 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:24:09,775 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:26:37,758 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/settings.py changed, reloading.
+INFO 2023-06-29 17:26:37,929 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:26:48,591 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:30:09,652 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/settings.py changed, reloading.
+INFO 2023-06-29 17:30:09,827 autoreload Watching for file changes with StatReloader
+WARNING 2023-06-29 17:30:19,138 log Bad Request: /product/
+INFO 2023-06-29 17:30:55,088 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:30:55,275 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:33:07,474 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:33:07,652 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-29 17:33:10,559 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 17, in create
+    cleaned_url = um.clean_url(url)
+                  ^^
+NameError: name 'um' is not defined
+INFO 2023-06-29 17:33:55,005 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:33:55,179 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-29 17:33:58,198 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 21, in clean_url
+    parsed_url = parsed_url._replace(query=urlunparse(cleaned_params.items()))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 515, in urlunparse
+    _coerce_args(*components))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 125, in _coerce_args
+    str_input = isinstance(args[0], str)
+                           ~~~~^^^
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 19, in create
+    cleaned_url = um.clean_url(url)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 39, in clean_url
+    return jsonify({'error': str(e)})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+INFO 2023-06-29 17:34:35,426 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:34:35,614 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-29 17:34:38,701 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 19, in create
+    cleaned_url = um.clean_url(url)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 38, in clean_url
+    raise e
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 21, in clean_url
+    parsed_url = parsed_url._replace(query=urlunparse(cleaned_params.items()))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 515, in urlunparse
+    _coerce_args(*components))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 125, in _coerce_args
+    str_input = isinstance(args[0], str)
+                           ~~~~^^^
+IndexError: tuple index out of range
+ERROR 2023-06-29 17:35:10,245 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 19, in create
+    cleaned_url = um.clean_url(url)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 38, in clean_url
+    raise e
+  File "/Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py", line 21, in clean_url
+    parsed_url = parsed_url._replace(query=urlunparse(cleaned_params.items()))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 515, in urlunparse
+    _coerce_args(*components))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/.pyenv/versions/3.11.4/lib/python3.11/urllib/parse.py", line 125, in _coerce_args
+    str_input = isinstance(args[0], str)
+                           ~~~~^^^
+IndexError: tuple index out of range
+INFO 2023-06-29 17:36:07,788 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:36:07,958 autoreload Watching for file changes with StatReloader
+ERROR 2023-06-29 17:36:13,916 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 19, in create
+    cleaned_url = um.clean_url(url)
+                  ^^^^^^^^^^^^^^^^^
+TypeError: UrlManager.clean_url() takes 1 positional argument but 2 were given
+INFO 2023-06-29 17:37:45,121 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:37:45,301 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:40:42,407 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:40:42,580 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:40:43,822 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:40:43,975 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:48:27,199 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:48:40,731 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:48:40,920 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:49:22,128 autoreload /Users/ryanchampin/Development/importlio/api/importlio/scraper/url_manager.py changed, reloading.
+INFO 2023-06-29 17:49:22,292 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:50:12,895 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:50:13,074 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:56:11,823 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:56:12,009 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:56:17,228 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:56:17,402 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 17:56:32,988 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-06-29 17:56:33,168 autoreload Watching for file changes with StatReloader
+INFO 2023-06-29 18:16:55,039 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 01:18:01,562 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 01:26:52,327 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 02:53:43,602 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 02:53:43,913 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 04:32:19,160 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 04:44:27,746 autoreload Watching for file changes with StatReloader
+ERROR 2023-07-01 06:34:14,952 log Internal Server Error: /scraper/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 23, in create
+    for url in urls:
+TypeError: 'NoneType' object is not iterable
+INFO 2023-07-01 06:36:26,137 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:37:30,102 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 06:37:30,377 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:37:33,543 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 06:37:33,723 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:38:28,590 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:38:56,424 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 06:38:56,612 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:40:19,995 autoreload /Users/ryanchampin/Development/importlio/api/importlio/import_product/views.py changed, reloading.
+INFO 2023-07-01 06:40:20,265 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:42:47,117 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/settings.py changed, reloading.
+INFO 2023-07-01 06:42:47,369 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:42:58,739 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/settings.py changed, reloading.
+INFO 2023-07-01 06:42:58,945 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:44:01,498 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 06:44:01,662 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:52:27,226 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 06:52:27,490 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:52:39,947 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 06:52:40,131 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:53:24,529 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 06:53:24,761 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:54:18,161 autoreload /Users/ryanchampin/Development/importlio/api/importlio/importlio/urls.py changed, reloading.
+INFO 2023-07-01 06:54:18,340 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 06:56:03,808 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:01:14,771 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:01:15,008 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:02:00,502 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:02:00,728 autoreload Watching for file changes with StatReloader
+ERROR 2023-07-01 07:35:14,378 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 29, in create
+    for url in urls:
+TypeError: 'NoneType' object is not iterable
+ERROR 2023-07-01 07:36:13,215 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 23, in create
+    urls = request.data.get('product_urls')
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+ERROR 2023-07-01 07:36:54,991 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 29, in create
+    for url in urls:
+TypeError: 'NoneType' object is not iterable
+INFO 2023-07-01 07:37:28,392 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:37:28,721 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:37:30,973 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:37:31,149 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:37:32,354 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:37:32,526 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:40:43,448 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:40:43,684 autoreload Watching for file changes with StatReloader
+INFO 2023-07-01 07:41:08,646 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:41:08,840 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-01 07:41:13,196 log Bad Request: /product/
+INFO 2023-07-01 07:47:57,522 autoreload /Users/ryanchampin/Development/importlio/api/importlio/product/views.py changed, reloading.
+INFO 2023-07-01 07:47:57,817 autoreload Watching for file changes with StatReloader
+ERROR 2023-07-01 07:54:06,449 log Internal Server Error: /product/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/.venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/api/importlio/product/views.py", line 23, in create
+    urls = request.data.get('urls')
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+INFO 2023-07-01 08:04:38,407 autoreload Watching for file changes with StatReloader

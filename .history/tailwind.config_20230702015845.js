@@ -1,0 +1,36 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    'colors': {
+      '50': '#f9fafb',
+      '100': '#f3f4f6',
+      '200': '#e5e7eb',
+      '300': '#d1d5db',
+      '400': '#9ca3af',
+      '500': '#6b7280',
+      '600': '#4b5563',
+      '700': '#374151',
+      '800': '#1f2937',
+      '900': '#111827',
+      '950': '#030712',
+    },
+
+    extend: {
+      // Set font family
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      },
+      // Set theme colors (Required config!)
+      colors: {
+        primary: colors.blue,
+        secondary: colors.slate,
+      },
+    },
+  },
+  // Add plugins
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
+};
