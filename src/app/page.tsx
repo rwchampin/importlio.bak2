@@ -3,7 +3,7 @@ import {
   getSubscription,
   getActiveProductsWithPrices
 } from '@/app/supabase-server';
-import { Scenes } from '@/components';
+import { SphereField } from '@/components';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -23,7 +23,7 @@ export default async function Page() {
       
     {/* <div className="landing h-full w-full flex flex-col text-center items-center justify-center"> */}
       {/* <DynamicCursor size={40} /> */}
-      <Scenes.SphereField />
+      <SphereField />
       <section>
         <div className="">The #1 AI Powered</div>
         <h1 className="text-5xl font-bold">

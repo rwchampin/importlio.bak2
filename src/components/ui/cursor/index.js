@@ -8,7 +8,7 @@ const Cursor = ({ size }) => {
 
     useEffect(() => {
         var draw = SVG().addTo('body').size(300, 130)
-        var rect = draw.circle(100).fill('#f06')
+        var rect = draw.circle(100).fill('#EEE')
         const cursor = cursorRef.current;
         const onMouseMove = (event) => {
             gsap.to(rect, {

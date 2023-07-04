@@ -1,18 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    serverActions: true
-  },
-  domains: [
-    'https://',
-  ],
+  // experimental: {
+  //   serverActions: true
+  // },
   images: {
-    domains: [`https://d3mjdbr3lj24xr.cloudfront.net`],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'd3mjdbr3lj24xr.cloudfront.net',
+        hostname: '**',
       },
     ],
   },

@@ -1,7 +1,10 @@
+"use client";
 import React, { useEffect, useRef } from 'react';
-import { Canvas as R3FCanvas } from 'react-three-fiber';
+import { Canvas as R3FCanvas, extend } from '@react-three/fiber';
 import gsap from 'gsap';
 import { OrbitControls } from '@react-three/drei';
+
+extend({R3FCanvas})
 const Canvas = ({ children }) => {
     const r3fCanvasRef = useRef(null);
     const twoDCanvasRef = useRef(null);
@@ -46,14 +49,14 @@ const Canvas = ({ children }) => {
         twoDCanvasRef.current.addEventListener('click', handle2DInteraction);
 
         // Cleanup
-        return () => {
-            r3fCanvasRef.current.removeEventListener('click', handleR3FInteraction);
-            twoDCanvasRef.current.removeEventListener('click', handle2DInteraction);
-        };
+        // return () => {
+        //     r3fCanvasRef.current.removeEventListener('click', handleR3FInteraction);
+        //     twoDCanvasRef.current.removeEventListener('click', handle2DInteraction);
+        // };
     }, []);
 
     return (
-        <div>
+        <div className='fixed h-screen w-screen top-0 left-0 right-0 bottom-0 z-0'>
             <R3FCanvas
             onCreated={(c) => {
                 // c.gl.setClearColor('white')
@@ -63,29 +66,30 @@ const Canvas = ({ children }) => {
                     ease: 'power3.inOut'
                 })
             }}
-            className="w-full h-full opacity-0 bg-cyan-400"
+            className="w-full h-full bg-cyan-400"
             shadows={true}
-            clearColor="yellow"
             // dpr={window.devicePixelRatio}
-                // ref={r3fCanvasRef}
+                ref={r3fCanvasRef}
                 id="r3f-canvas"
-                camera={{ position: [0, 0, 5], fov: 75 }}
+                camera={{ position: [0, 0, -5], fov: 75 }}
             >
                 <OrbitControls />
                 <ambientLight 
+                    color={0xff0000}
                     intensity={0.5}
                 />
-                <pointLight
+                <pointLight 
+                    color={0xf8f8f8}
                     position={[10, 10, 10]}
-                    intensity={1}
+                    intensity={1.5}
                 />
-                <mesh>
+                <mesh position={[0,0,5]}>
                     <sphereGeometry args={[1, 16, 16]} />
                     <meshStandardMaterial color="hotpink" />
                 </mesh>
                 {/* {children} */}
             </R3FCanvas>
-            {/* <canvas ref={twoDCanvasRef} id="2d-canvas" /> */}
+            <canvas ref={twoDCanvasRef} id="2d-canvas" />
         </div>
     );
 };

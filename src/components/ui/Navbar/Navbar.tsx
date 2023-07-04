@@ -1,17 +1,16 @@
 
 // import SignOutButton from './SignOutButton';
-import { createServerSupabaseClient } from '@/app/supabase-server';
-// import Logo from '@/components/icons/Logo';
-// import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
+// import { createServerSupabaseClient } from '@/app/supabase-server';
+import { Input } from '@/components';
 import Link from 'next/link';
-// import { Input } from '@/components';
+
 
 
 export default async function Navbar() {
-  const supabase = createServerSupabaseClient();
-  const {
-    data: { user }
-  } = await supabase.auth.getUser();
+  // const supabase = createServerSupabaseClient();
+  // const {
+  //   data: { user }
+  // } = await supabase.auth.getUser();
 
   return (
     <nav >

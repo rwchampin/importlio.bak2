@@ -15,7 +15,7 @@ import {
   useCubeTexture,
   MeshDistortMaterial
 } from "@react-three/drei";
-
+import bump from "@/assets/img/bump.jpg";
 
 function Instances({ material }) {
   // we use this array ref to store the spheres after creating them
@@ -59,10 +59,10 @@ function Instances({ material }) {
 }
 
 function Scene() {
-  const bumpMap = useTexture(`https://d3mjdbr3lj24xr.cloudfront.net/bump.jpg`);
+  const bumpMap = useTexture(bump);
   const envMap = useCubeTexture(
     ["px.png", "nx.png", "py.png", "ny.png", "pz.png", "nz.png"],
-    { path: "https://d3mjdbr3lj24xr.cloudfront.net/cube/" }
+    { path: "https://importlio.s3.amazonaws.com/cube/" }
   );
   // We use `useResource` to be able to delay rendering the spheres until the material is ready
   const [material, set] = useState();
@@ -90,11 +90,10 @@ function Scene() {
 export default function () {
   return (
     <Canvas
-      colorManagement
       camera={{ position: [0, 0, 3] }}
       gl={{
         powerPreference: "high-performance",
-        alpha: false,
+        // alpha: false,
         antialias: false,
         stencil: false,
         depth: false

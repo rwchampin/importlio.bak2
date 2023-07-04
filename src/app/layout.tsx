@@ -1,16 +1,16 @@
-import Core from '@/Core';
 import SupabaseProvider from './supabase-provider';
-// import Footer from '@/components/ui/Footer';
+import { Canvas } from '@/components';
+import { Footer, Navbar } from '@/components';
+import { Montserrat } from 'next/font/google';
 // import Navbar from '@/components/ui/Navbar';
 
-import localFont from 'next/font/local';
 import { PropsWithChildren } from 'react';
 import '@/styles/globals.css';
 
-// const montserrat = localFont({
-//   src: 'm.ttf',
-//   display: 'swap',
-// })
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  preload: true
+});
 
 // const apercu = localFont({
 //   src: 'fonts/apercu-regular-pro.woff2',
@@ -68,20 +68,18 @@ export default function RootLayout({
   // This will be populated with nested layouts or pages
   children
 }: PropsWithChildren) {
-
-
-
   return (
     <html lang="en">
-      <body className="antialiased flex flex-col light:bg-background-light dark:bg-background-dark">
-        <SupabaseProvider>
-          {/* @ts-expect-error */}
-          {/* <Navbar /> */}
-          <main style={{background: 'red'}} className="flex w-full h-screen flex-auto min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)] p-[20px] gap-[20px]">
-            {children}
-          </main>
-          {/* <Footer /> */}
-        </SupabaseProvider>
+      <body className="antialiased flex flex-col">
+        {/* <SupabaseProvider> */}
+        {/* @ts-expect-error */}
+        <Navbar />
+        <main className="flex flex-col w-full h-screen flex-auto min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)] p-[20px] gap-[20px]">
+          <Canvas>{children}</Canvas>
+        </main>
+        <Footer />
+        {/* <Cursor size={50}/> */}
+        {/* </SupabaseProvider> */}
       </body>
     </html>
   );

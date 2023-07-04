@@ -8,7 +8,7 @@ import vertex from "./glsl/vertex.vert";
 import { useWindowSize } from "@/hooks";
 import fragment1 from "./glsl/fragment-tubes.frag";
 import vertex1 from "./glsl/vertex-tubes.vert";
-import * as dat from "dat.gui";
+// import * as dat from "dat.gui";
 import gsap from "gsap";
 
 
@@ -638,8 +638,8 @@ export default function () {
         this.settings = {
           progress: 0,
         };
-        this.gui = new dat.GUI();
-        this.gui.add(this.settings, "progress", 0, 1, 0.01);
+        // this.gui = new dat.GUI();
+        // this.gui.add(this.settings, "progress", 0, 1, 0.01);
       }
 
       setupResize() {
