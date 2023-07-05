@@ -40,7 +40,7 @@ const meta = {
   description: "Bulk import Amazon Dropshipping Products into Shopify E-Commerce Stores. Source and Sell Profitable Dropshipping Products from Amazon",
   cardImage: '/logo.png',
   robots: 'follow, index',
-  favicon: '/favicon.ico',
+  favicon: '/favicon-96x96.ico',
   url: 'https://importlio.com',
   type: 'website'
 };

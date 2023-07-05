@@ -535,3 +535,4 @@ DEBUG 2023-07-04 06:57:10,578 resource Dispatching token_type Bearer request to 
 WARNING 2023-07-04 22:02:45,493 log Not Found: /favicon.ico
 INFO 2023-07-04 23:23:11,222 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/serializers.py changed, reloading.
 INFO 2023-07-04 23:23:11,694 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 02:38:17,560 log Not Found: /favicon.ico

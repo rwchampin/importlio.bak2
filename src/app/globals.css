@@ -325,8 +325,6 @@ a {
   line-height: 200%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  --innerWidth: 1920px;
-  --text-header: 14px;
   margin: 0;
   box-sizing: inherit;
   text-decoration: none;
@@ -348,6 +346,7 @@ a {
   border-radius: var(--button-rounded);
 }
 
+
 input[type="text"] {
  
   margin: 0;
@@ -364,7 +363,10 @@ input[type="text"] {
   flex: 1;
   color: var(--search-color-light);
 }
-
+.btn.black {
+  background-color: #222;
+  color: var(--color-white);
+}
 .hero {
   max-width: 85vw;
   width: 100%;

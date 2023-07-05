@@ -1,7 +1,8 @@
 
 // import SignOutButton from './SignOutButton';
-import { SearchForm, Logo } from '@/components';
+import { SearchForm, Logo, Profile } from '@/components';
 import Link from 'next/link';
+import { ButtonPrimary, ButtonIcon, ButtonPrimaryAlt, ButtonSolid } from '@/components/ui/Button';
 
 import {
   getSession,
@@ -15,11 +16,13 @@ export default async function Navbar({ children }) {
     getActiveProductsWithPrices(),
     getSubscription()
   ]);
+  const user = session?.user;
+//  console.log("fuck", session, products, subscription)
   // const supabase = createServerSupabaseClient();
   // const {
   //   data: { user }
   // } = await supabase.auth.getUser();
-  debugger
+
   const links = [
     { href: '/features', label: 'Features' },
     { href: '/pricing', label: 'Pricing' },
@@ -39,9 +42,12 @@ export default async function Navbar({ children }) {
           </li>
         ))}
       </ul>
-
-          {children}
-        <SearchForm />
+      {user ? (
+        <Link href="/signin" className="btn btn-black">Log in</Link>
+      ):(
+        <Profile />
+      )}
+        <SearchForm /> 
         {/* {user ? (
               <>
                 <SignOutButton user={user} />

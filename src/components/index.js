@@ -22,7 +22,9 @@ import Navbar from '../app/components/Navbar/Navbar';
 import Canvas from './ui/Canvas';
 import Pricing from './Pricing';
 import Logo from '@/components/icons/Logo';
+import Profile from '@/components/ui/Avatar/Profile';
 export {
+    Profile,
     CanvasManager,
     Logo,
     Pricing,
