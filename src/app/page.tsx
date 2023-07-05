@@ -3,7 +3,7 @@ import {
   getSubscription,
   getActiveProductsWithPrices
 } from '@/app/supabase-server';
-import { CanvasManager, EmailInput } from '@/components';
+import { CanvasManager, ParticleText } from '@/components';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -17,10 +17,8 @@ export default async function Page() {
         <div className="w-full lg:w-1/2">
           <div className="lg:max-w-lg">
             <div className="">The #1 AI Powered</div>
-            <h1 className="text-5xl font-bold">
-              <span className="text-green-500">Shopify</span> Bulk Product
-              Importer
-            </h1>
+            <ParticleText lines={2} color="#ff0000" desktop={"Shopify Bulk Product Importer"} mobile={"Shopify Bulk\nProduct Importer"} />
+
             <div className="font-bold text-zinc-300">
               Import UNLIMITED amazon products in minutes
             </div>

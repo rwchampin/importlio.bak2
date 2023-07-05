@@ -1,4 +1,5 @@
 import { Title } from '@/components/typography/title'
+import ParticleText from '@/components/ParticleText'
 import { Subtitle } from '@/components/typography/subtitle'
 import Choose from '@/components/choose'
 import * as Btn from '@/components/ui/Button'
@@ -28,6 +29,7 @@ import { AvatarProfile, AvatarBorder, AvatarSimple, AvatarStatusIcon } from '@/c
 
 
 export {
+    ParticleText,
     SimpleDropdown,
     CanvasManager,
     Logo,

@@ -12,7 +12,7 @@ import { ButtonPrimary, ButtonIcon, ButtonPrimaryAlt, ButtonSolid } from '@/comp
 export default function Navbar() {
  
   const { data: session, status } = useSession()
-  const handleClick = () => signIn()
+  const handleClick = () => signIn("google", { callbackUrl: 'http://localhost:3000/dashboard' })
   debugger
   const links = [
     { href: '/features', label: 'Features' },
