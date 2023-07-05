@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import logging
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-#(*fg%*!mjcg*(#n6hp%$$++n=fpe9=8q)m_(hj=k3wt@+dpw0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.10.102', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -38,16 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework.authtoken',
-    'rest_auth',
     'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'rest_auth.registration',
+    "rest_framework.authtoken",
     'proxy',
     'product',
-    'oauth2_provider',
-    'user_profile',
+    'authentication',
 ]
 
 MIDDLEWARE = [
@@ -123,27 +119,19 @@ USE_I18N = True
 
 USE_TZ = True
 
+ 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-
+# Media settings
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-ACCOUNT_USER_MODEL_USERNAME_FIELD = None
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_UNIQUE_EMAIL = True
-ACCOUNT_USERNAME_REQUIRED = False
-ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-ACCOUNT_CONFIRM_EMAIL_ON_GET = True
-ACCOUNT_EMAIL_CONFIRMATION_ANONYMOUS_REDIRECT_URL = '/?verification=1'
-ACCOUNT_EMAIL_CONFIRMATION_AUTHENTICATED_REDIRECT_URL = '/?verification=1'
 
 SITE_ID = 1
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -155,20 +143,14 @@ CORS_ALLOWED_ORIGINS = [
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ),
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),  
+
+     "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
+    ]
 }
 
 PROXY_API_URL = 'https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc'
 
-AUTH_USER_MODEL='user_profile.UserProfile'
-
-LOGIN_URL='/admin/login/'
 
 # settings.py
 LOGGING = {
@@ -193,16 +175,41 @@ LOGGING = {
         'level': 'DEBUG',
     },
 }
-AUTHENTICATION_BACKENDS = (
-    'oauth2_provider.backends.OAuth2Backend',
-    'django.contrib.auth.backends.ModelBackend',
-)
-OAUTH2_PROVIDER = {
-    # Set the token expiration time (in seconds)
-    'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,
-    # Customize the scopes for your application
-    'SCOPES': {'read': 'Read scope', 'write': 'Write scope'},
-}
 
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '286561888550-02ittul6p0bhs20qh76umgb5uau52uqs.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+SOCIAL_AUTH_FACEBOOK_KEY = '1520321322108472'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'ec657c5436666920ad8cdc14826d9f27'
+# 1520321322108472|bpas2KaRjiMfxsBrwwg_4F_ZJ_8
 
 # AUTH_USER_MODEL = 'importlio.UserProfile'
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "<your email host>"                    # smtp-relay.sendinblue.com
+EMAIL_USE_TLS = False                               # False
+EMAIL_PORT = "<your email port>"                    # 587
+EMAIL_HOST_USER = "<your email user>"               # your email address
+EMAIL_HOST_PASSWORD = "<your email password>"       # your password
+DEFAULT_FROM_EMAIL = "<your default from email>"    # email ending with @sendinblue.com
+
+GOOGLE_CLIENT_ID='286561888550-mloc3g5h6vi9959tkedubfan41eu3vfj.apps.googleusercontent.com'
+GOOGLE_CLIENT_SECRET='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'
+
+SOCIALACCOUNT_PROVIDERS = {
+    "google": {
+        "APP": {
+            "client_id": "286561888550-mloc3g5h6vi9959tkedubfan41eu3vfj.apps.googleusercontent.com",  # replace me
+            "secret": "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",        # replace me
+            "key": "",                               # leave empty
+        },
+        "SCOPE": [
+            "profile",
+            "email",
+        ],
+        "AUTH_PARAMS": {
+            "access_type": "online",
+        },
+        "VERIFIED_EMAIL": True,
+    },
+}

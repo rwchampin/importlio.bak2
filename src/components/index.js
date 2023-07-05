@@ -2,7 +2,9 @@ import { Title } from '@/components/typography/title'
 import { Subtitle } from '@/components/typography/subtitle'
 import Choose from '@/components/choose'
 import * as Btn from '@/components/ui/Button'
-import { RedCurlNoise, SphereField} from '@/components/Scenes'
+import ProfileDropdown from '@/components/ui/dropdown/ProfileDropdown'
+import SimpleDropdown from '@/components/ui/dropdown/SimpleDropdown'
+import { RedCurlNoise, SphereField } from '@/components/Scenes'
 import {
     Input,
     TextInput,
@@ -22,9 +24,11 @@ import Navbar from '../app/components/Navbar/Navbar';
 import Canvas from './ui/Canvas';
 import Pricing from './Pricing';
 import Logo from '@/components/icons/Logo';
-import Profile from '@/components/ui/Avatar/Profile';
+import { AvatarProfile, AvatarBorder, AvatarSimple, AvatarStatusIcon } from '@/components/ui/Avatar';
+
+
 export {
-    Profile,
+    SimpleDropdown,
     CanvasManager,
     Logo,
     Pricing,
@@ -44,5 +48,7 @@ export {
     SphereField,
     RedCurlNoise,
     Footer,
-    Canvas
+    Canvas,
+    AvatarBorder, AvatarSimple, AvatarStatusIcon,AvatarProfile,
+    ProfileDropdown
 }

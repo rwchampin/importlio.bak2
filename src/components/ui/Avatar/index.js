@@ -1,7 +1,12 @@
-"use client"
+import AvatarBorder from './AvatarBorder';
+import AvatarProfile from './AvatarProfile';
+import AvatarSimple from './AvatarSimple';
+import AvatarStatusIcon from './AvatarStatusIcon';
 
-import SimpleDropdown from './Simple'
 
 export {
-    SimpleDropdown
+    AvatarBorder,
+    AvatarProfile,
+    AvatarSimple,
+    AvatarStatusIcon
 }

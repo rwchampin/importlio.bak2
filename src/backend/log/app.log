@@ -536,3 +536,411 @@ WARNING 2023-07-04 22:02:45,493 log Not Found: /favicon.ico
 INFO 2023-07-04 23:23:11,222 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/serializers.py changed, reloading.
 INFO 2023-07-04 23:23:11,694 autoreload Watching for file changes with StatReloader
 WARNING 2023-07-05 02:38:17,560 log Not Found: /favicon.ico
+INFO 2023-07-05 02:54:30,064 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:23:45,721 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:23:46,076 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:24:07,771 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:24:08,031 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:24:09,211 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:24:09,466 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:28:33,486 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:28:33,814 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:28:35,021 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:28:35,285 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:28:40,576 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:28:40,849 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:30:07,168 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 03:30:07,431 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:47:11,459 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:47:11,734 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:47:23,040 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 03:47:23,287 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:55:06,645 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:55:06,985 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:56:32,645 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:56:32,895 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:56:33,976 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:56:34,223 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:57:08,277 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:57:58,894 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:57:59,142 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:57:59,154 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:57:59,405 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:03,265 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:03,517 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:03,526 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:03,779 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:43,253 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:43,475 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:43,512 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:43,733 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:53,975 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:54,227 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:54,798 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:55,053 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:58:55,338 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/views.py changed, reloading.
+INFO 2023-07-05 03:58:55,595 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:59:22,575 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 03:59:22,825 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 03:59:23,109 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 03:59:23,370 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:00:04,121 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 04:00:04,388 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:00:04,579 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 04:00:04,850 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:23:55,088 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 04:23:55,602 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 04:26:08,755 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:26:38,354 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 04:26:38,610 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:27:03,075 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 04:27:03,328 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:43:12,734 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 04:43:12,987 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 04:43:14,141 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 04:43:14,304 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:04:10,349 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 05:04:33,978 log Not Found: /favicon.ico
+ERROR 2023-07-05 05:04:35,673 log Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: authentication_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/generic/edit.py", line 152, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/forms/forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/forms/forms.py", line 196, in errors
+    self.full_clean()
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/forms/forms.py", line 434, in full_clean
+    self._clean_form()
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/forms/forms.py", line 455, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/auth/forms.py", line 242, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/auth/backends.py", line 46, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: authentication_user
+INFO 2023-07-05 05:08:00,760 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 05:08:00,997 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:11:26,294 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/admin.py changed, reloading.
+INFO 2023-07-05 05:11:26,527 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:14:49,997 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 05:14:50,260 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:14:58,603 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/utils.py changed, reloading.
+INFO 2023-07-05 05:14:58,804 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:15:01,018 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/admin.py changed, reloading.
+INFO 2023-07-05 05:15:01,225 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:15:06,482 autoreload /Users/ryanchampin/Development/importlio/src/backend/social_auth/google.py changed, reloading.
+INFO 2023-07-05 05:15:06,689 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:16:56,076 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:17:29,839 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:17:53,370 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:19:01,085 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:19:29,407 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:19:51,492 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:23:46,461 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 05:23:46,721 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:25:46,830 autoreload /Users/ryanchampin/Development/importlio/src/backend/proxy/urls.py changed, reloading.
+INFO 2023-07-05 05:25:47,068 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:27:10,411 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:38:24,652 autoreload /Users/ryanchampin/Development/importlio/src/backend/social_auth/google.py changed, reloading.
+INFO 2023-07-05 05:38:24,941 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:44:21,645 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 05:44:21,936 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:44:48,707 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 05:44:48,967 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 05:45:16,885 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 05:45:17,118 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 06:07:01,725 log Not Found: /blog
+WARNING 2023-07-05 06:07:01,890 log Not Found: /favicon.ico
+INFO 2023-07-05 06:12:10,220 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/models.py changed, reloading.
+INFO 2023-07-05 06:12:10,501 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 06:12:28,017 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/models.py changed, reloading.
+INFO 2023-07-05 06:12:28,234 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 06:23:34,899 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/models.py changed, reloading.
+INFO 2023-07-05 06:23:35,210 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 06:25:20,027 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 07:21:26,904 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 07:23:01,743 log Forbidden: /social_auth/google/
+INFO 2023-07-05 08:38:04,058 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 08:49:10,420 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 08:49:34,196 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 08:49:34,419 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 08:59:37,653 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:10:53,769 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 10:11:49,399 log Bad Request: /api/auth/register/
+WARNING 2023-07-05 10:13:08,341 log Unauthorized: /api/auth/user/
+WARNING 2023-07-05 10:13:15,631 log Unauthorized: /api/auth/user/
+INFO 2023-07-05 10:13:42,954 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:13:43,150 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:13:53,692 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:13:53,874 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:15:43,007 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/urls.py changed, reloading.
+INFO 2023-07-05 10:15:43,190 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:16:23,919 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:16:24,087 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:16:25,293 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:16:25,453 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:22:57,294 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:22:57,476 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:23:33,502 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:23:33,678 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:23:34,874 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-05 10:23:35,038 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:24:04,281 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 10:24:04,447 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:24:05,648 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/views.py changed, reloading.
+INFO 2023-07-05 10:24:05,814 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:24:27,733 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/urls.py changed, reloading.
+INFO 2023-07-05 10:24:27,902 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 10:24:29,105 autoreload /Users/ryanchampin/Development/importlio/src/backend/authentication/urls.py changed, reloading.
+INFO 2023-07-05 10:24:29,265 autoreload Watching for file changes with StatReloader
+ERROR 2023-07-05 10:29:13,170 log Internal Server Error: /api/auth/google/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/allauth/socialaccount/providers/google/views.py", line 21, in complete_login
+    identity_data = jwt.decode(
+                    ^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 210, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 162, in decode_complete
+    self._validate_claims(
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 254, in _validate_claims
+    self._validate_aud(payload, audience)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 336, in _validate_aud
+    raise InvalidAudienceError("Audience doesn't match")
+jwt.exceptions.InvalidAudienceError: Audience doesn't match
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/views.py", line 48, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/views.py", line 125, in post
+    self.serializer.is_valid(raise_exception=True)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/registration/serializers.py", line 157, in validate
+    login = self.get_social_login(adapter, app, social_token, response={'id_token': token})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/registration/serializers.py", line 61, in get_social_login
+    social_login = adapter.complete_login(request, app, token, response=response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/allauth/socialaccount/providers/google/views.py", line 39, in complete_login
+    raise OAuth2Error("Invalid id_token") from e
+allauth.socialaccount.providers.oauth2.client.OAuth2Error: Invalid id_token
+ERROR 2023-07-05 10:32:00,121 log Internal Server Error: /api/auth/google/
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/allauth/socialaccount/providers/google/views.py", line 21, in complete_login
+    identity_data = jwt.decode(
+                    ^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 210, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 162, in decode_complete
+    self._validate_claims(
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 254, in _validate_claims
+    self._validate_aud(payload, audience)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/jwt/api_jwt.py", line 336, in _validate_aud
+    raise InvalidAudienceError("Audience doesn't match")
+jwt.exceptions.InvalidAudienceError: Audience doesn't match
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/views.py", line 48, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/views.py", line 125, in post
+    self.serializer.is_valid(raise_exception=True)
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/registration/serializers.py", line 157, in validate
+    login = self.get_social_login(adapter, app, social_token, response={'id_token': token})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/dj_rest_auth/registration/serializers.py", line 61, in get_social_login
+    social_login = adapter.complete_login(request, app, token, response=response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanchampin/Development/importlio/src/backend/env/lib/python3.11/site-packages/allauth/socialaccount/providers/google/views.py", line 39, in complete_login
+    raise OAuth2Error("Invalid id_token") from e
+allauth.socialaccount.providers.oauth2.client.OAuth2Error: Invalid id_token
+INFO 2023-07-05 11:09:17,551 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 11:11:04,817 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 11:20:42,622 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 11:20:59,061 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 11:20:59,231 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 11:21:00,339 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 11:21:00,500 autoreload Watching for file changes with StatReloader
+INFO 2023-07-05 11:21:05,689 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-05 11:21:05,859 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 11:21:21,830 log Not Found: /favicon.ico
+WARNING 2023-07-05 11:21:28,423 log Unauthorized: /current/
+WARNING 2023-07-05 11:21:42,171 log Unauthorized: /current/
+INFO 2023-07-05 11:39:33,006 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-05 13:59:51,241 log Unauthorized: /current/
+WARNING 2023-07-05 13:59:51,427 log Not Found: /favicon.ico

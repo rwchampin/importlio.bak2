@@ -346,23 +346,7 @@ a {
   border-radius: var(--button-rounded);
 }
 
-
-input[type="text"] {
  
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: var(--font-1);
-  position: relative;
-  height: 100%;
-  background: rgba(0,0,0,0);
-  border: none;
-  padding-left: 10px;
-  font-size: var(--text-header);
-
-  flex: 1;
-  color: var(--search-color-light);
-}
 .btn.black {
   background-color: #222;
   color: var(--color-white);
@@ -398,8 +382,12 @@ input[type="text"] {
   filter: brightness(90%);
 }
 
-textarea:focus, input:focus{
-  outline: none;
+textarea:focus,input,button,a, input:focus, input:active, input:hover, button:focus, button:active, button:hover, a:focus, a:active, a:hover {
+  outline: none !important;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
 }
 
 .apercu {

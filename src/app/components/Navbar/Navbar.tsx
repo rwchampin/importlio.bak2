@@ -1,52 +1,47 @@
-
+"use client"
 // import SignOutButton from './SignOutButton';
-import { SearchForm, Logo, Profile } from '@/components';
+
+import { SearchForm, Logo, AvatarBorder, ProfileDropdown, SimpleDropdown } from '@/components';
 import Link from 'next/link';
+import { useSession, signIn, signOut } from 'next-auth/react'
+
 import { ButtonPrimary, ButtonIcon, ButtonPrimaryAlt, ButtonSolid } from '@/components/ui/Button';
 
-import {
-  getSession,
-  getSubscription,
-  getActiveProductsWithPrices
-} from '@/app/supabase-server';
+ 
 
-export default async function Navbar({ children }) {
-  const [session, products, subscription] = await Promise.all([
-    getSession(),
-    getActiveProductsWithPrices(),
-    getSubscription()
-  ]);
-  const user = session?.user;
-//  console.log("fuck", session, products, subscription)
-  // const supabase = createServerSupabaseClient();
-  // const {
-  //   data: { user }
-  // } = await supabase.auth.getUser();
-
+export default function Navbar() {
+ 
+  const { data: session, status } = useSession()
+  const handleClick = () => signIn()
+  debugger
   const links = [
     { href: '/features', label: 'Features' },
     { href: '/pricing', label: 'Pricing' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/about', label: 'About' }
+    { href: '/blog', label: 'Blog', children: [
+      { href: '/post-1', label: 'Blog 1' },
+      { href: '/post-2', label: 'Blog 2' },
+      { href: '/post-3', label: 'Blog 3' },
+      { href: '/post-4', label: 'Blog 4' },
+
+    ] },
+    { href: '/about', label: 'About' },
+
   ];
 
+
   return (
-    <nav className="w-full p-5 sticky flex justify-center items-center gap-5">
+    <nav className="w-full p-5 sticky top-0 flex justify-center items-center gap-5">
       <Link href="/" aria-label="Logo">
         <Logo width={40} />
       </Link>
       <ul className="flex pl-10 items-center justify-start flex-1 gap-5">
-        {links.map(({ href, label }) => (
+        {links.map(({ href, label, children }) => (
           <li key={`${href}${label}`}>
             <Link href={href} className="apercu-medium">{label}</Link>
           </li>
         ))}
       </ul>
-      {user ? (
-        <Link href="/signin" className="btn btn-black">Log in</Link>
-      ):(
-        <Profile />
-      )}
+       
         <SearchForm /> 
         {/* {user ? (
               <>
@@ -58,6 +53,15 @@ export default async function Navbar({ children }) {
               </Link>
             )}  */}
     {/* <SignOutButton /> */}
+          {session?.user ? (
+            <ProfileDropdown signOut={signOut} user={session.user}>
+            <AvatarBorder size={'xl'} user={session.user} />
+          </ProfileDropdown>
+          ) : (
+            <div onClick={handleClick} className='btn btn-black'>
+            Sign in
+          </div>
+          )}
 
     </nav>
   );
