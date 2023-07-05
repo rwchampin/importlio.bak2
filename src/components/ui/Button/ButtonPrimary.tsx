@@ -45,7 +45,7 @@ const ButtonPrimary = forwardRef<HTMLButtonElement, Props>((props, buttonRef) =>
       data-variant={variant}
       ref={mergeRefs([ref, buttonRef])}
       // className={rootClassName}
-      className="text-sm px-4 py-2 rounded-lg bg-primary-button text-white ml-2 md:ml-5"
+      className="text-sm font-bold px-5 py-2 rounded-lg bg-black text-white w-full max-w-sm hover:bg-gray-900"
       disabled={disabled}
       style={{
         width,

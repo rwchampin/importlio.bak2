@@ -1,4 +1,7 @@
 import { Database } from '@/types_db';
+import tunnel from 'tunnel-rat'
+
+
 
 type Price = Database['public']['Tables']['prices']['Row'];
 
@@ -84,3 +87,6 @@ export const parseUrls = (urls: string[]) => {
   debugger
   return parsedUrls;
 }
+
+
+export const r3f = tunnel()

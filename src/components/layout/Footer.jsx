@@ -1,11 +1,11 @@
-import GitHub from '@/components/icons/GitHub';
+import { BsInstagram } from 'react-icons/bs';
 import Logo from '@/components/icons/Logo';
 import Switch from '@/components/ui/switch';
 import Link from 'next/link';
-import { EmailInput } from '@/components/ui/Input';
+
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-neutral-900">
       <div className="container px-6 py-12 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">

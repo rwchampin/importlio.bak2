@@ -469,3 +469,69 @@ INFO 2023-07-02 21:10:00,477 autoreload Watching for file changes with StatReloa
 INFO 2023-07-02 21:11:13,150 autoreload Watching for file changes with StatReloader
 INFO 2023-07-02 21:11:40,775 autoreload Watching for file changes with StatReloader
 INFO 2023-07-02 21:12:46,731 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:14:08,717 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:14:41,785 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:14:42,111 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:17:04,406 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:17:04,645 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:17:05,801 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:17:06,102 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:17:22,674 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:17:22,982 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:17:33,384 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:17:33,632 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:17:40,921 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:17:41,180 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:18:10,048 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:18:10,359 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:18:12,534 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:18:12,765 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:18:13,900 autoreload /Users/ryanchampin/Development/importlio/src/backend/users/models.py changed, reloading.
+INFO 2023-07-04 04:18:14,161 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:18:49,027 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-04 04:18:49,338 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:18:50,500 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-04 04:18:50,771 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:48:53,278 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 04:49:22,125 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 04:49:22,396 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 04:49:27,499 log Not Found: /signin/
+WARNING 2023-07-04 04:49:27,681 log Not Found: /favicon.ico
+INFO 2023-07-04 04:59:53,429 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 04:59:53,760 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:01:27,559 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 05:01:27,880 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 05:02:18,584 log Not Found: /signin/
+INFO 2023-07-04 05:02:56,738 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 05:02:57,086 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:02:58,339 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 05:02:58,602 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:03:44,829 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 05:03:51,348 log Not Found: /admin/login/
+WARNING 2023-07-04 05:03:54,628 log Not Found: /signin/
+INFO 2023-07-04 05:04:09,771 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/settings.py changed, reloading.
+INFO 2023-07-04 05:04:10,111 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:04:15,171 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 05:04:19,283 log Not Found: /signin/
+WARNING 2023-07-04 05:04:28,047 log Not Found: /admin/login/
+WARNING 2023-07-04 05:06:58,234 log Not Found: /admin/login/
+INFO 2023-07-04 05:07:33,654 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-04 05:07:33,999 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:07:45,396 autoreload /Users/ryanchampin/Development/importlio/src/backend/importlio/urls.py changed, reloading.
+INFO 2023-07-04 05:07:45,633 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 05:07:49,155 log Not Found: /favicon.ico
+WARNING 2023-07-04 05:07:53,665 log Not Found: /favicon.ico
+WARNING 2023-07-04 05:07:55,355 log Not Found: /favicon.ico
+INFO 2023-07-04 05:13:34,038 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/models.py changed, reloading.
+INFO 2023-07-04 05:13:34,386 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:13:38,629 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/models.py changed, reloading.
+INFO 2023-07-04 05:13:38,871 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 05:18:13,462 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 06:54:45,283 autoreload Watching for file changes with StatReloader
+INFO 2023-07-04 06:56:22,369 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/models.py changed, reloading.
+INFO 2023-07-04 06:56:22,674 autoreload Watching for file changes with StatReloader
+WARNING 2023-07-04 06:56:37,931 log Not Found: /favicon.ico
+DEBUG 2023-07-04 06:57:10,578 resource Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x113ec87c0>.
+WARNING 2023-07-04 22:02:45,493 log Not Found: /favicon.ico
+INFO 2023-07-04 23:23:11,222 autoreload /Users/ryanchampin/Development/importlio/src/backend/user_profile/serializers.py changed, reloading.
+INFO 2023-07-04 23:23:11,694 autoreload Watching for file changes with StatReloader

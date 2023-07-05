@@ -1,6 +1,6 @@
  "use client";
-import React, { Suspense, useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import React, { Suspense, useEffect, useRef, useState } from "react";
+import { Canvas, useFrame, useThree, Backdrop } from "@react-three/fiber";
 import {
   EffectComposer,
   DepthOfField,
@@ -88,17 +88,17 @@ function Scene() {
 }
 
 export default function () {
+  const { gl, scene, camera } = useThree();
+
+  useEffect(() => {
+    scene.fog = new THREE.Fog("#161616", 8, 30);
+    gl.setClearColor("#050505");
+    gl.toneMapping = THREE.ACESFilmicToneMapping;
+    gl.outputEncoding = THREE.sRGBEncoding;
+  }
+  , []);
   return (
-    <Canvas
-      camera={{ position: [0, 0, 3] }}
-      gl={{
-        powerPreference: "high-performance",
-        // alpha: false,
-        antialias: false,
-        stencil: false,
-        depth: false
-      }}
-    >
+<>
       <color attach="background" args={["#050505"]} />
       <fog color="#161616" attach="fog" near={8} far={30} />
       <Suspense fallback={<Html center>Loading.</Html>}>
@@ -121,6 +121,6 @@ export default function () {
         <Vignette eskil={false} offset={0.1} darkness={1.1} />
       </EffectComposer>
     
-    </Canvas>
+    </>
   );
 }

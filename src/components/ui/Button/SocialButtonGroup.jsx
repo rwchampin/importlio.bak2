@@ -1,9 +1,9 @@
 export const SocialButtonGroup = ({ children, ...props }) => {
   return (
-    <div class="flex flex-col w-full max-w-xs gap-y-5">
-      <button class="bg-white flex items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
+    <div classname="flex flex-col w-full max-w-xs gap-y-5">
+      <button classname="bg-white flex items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
         <svg
-          class="w-5 h-5 sm:h-6 sm:w-6"
+          classname="w-5 h-5 sm:h-6 sm:w-6"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -36,9 +36,9 @@ export const SocialButtonGroup = ({ children, ...props }) => {
         <span>Sign in with Google</span>
       </button>
 
-      <button class="bg-[#1877F2] flex gap-x-3 text-sm sm:text-base items-center justify-center text-white rounded-lg hover:bg-[#1877F2]/80 duration-300 transition-colors border border-transparent px-8 py-2.5">
+      <button classname="bg-[#1877F2] flex gap-x-3 text-sm sm:text-base items-center justify-center text-white rounded-lg hover:bg-[#1877F2]/80 duration-300 transition-colors border border-transparent px-8 py-2.5">
         <svg
-          class="w-5 h-5 sm:h-6 sm:w-6"
+          classname="w-5 h-5 sm:h-6 sm:w-6"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -59,9 +59,9 @@ export const SocialButtonGroup = ({ children, ...props }) => {
         <span>Sign in with Facebook</span>
       </button>
 
-      <button class="bg-black rounded-lg text-sm sm:text-base flex items-center gap-x-3 justify-center text-white hover:bg-black/80 duration-300 transition-colors border border-transparent px-8 py-2.5">
+      <button classname="bg-black rounded-lg text-sm sm:text-base flex items-center gap-x-3 justify-center text-white hover:bg-black/80 duration-300 transition-colors border border-transparent px-8 py-2.5">
         <svg
-          class="w-5 h-5 sm:h-6 sm:w-6"
+          classname="w-5 h-5 sm:h-6 sm:w-6"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

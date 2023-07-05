@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '@/components/ui/Button';
+// import Button from '@/components';
 import { Database } from '@/types_db';
 import { postData } from '@/utils/helpers';
 import { getStripe } from '@/utils/stripe-client';
@@ -138,7 +138,7 @@ export default function Pricing({
                         </span>
                       </p>
                       <p className="mt-4 text-zinc-300">{price.description}</p>
-                      <Button
+                      {/* <Button
                         variant="slim"
                         type="button"
                         disabled={false}
@@ -150,7 +150,7 @@ export default function Pricing({
                         subscription?.prices?.products?.name
                           ? 'Manage'
                           : 'Subscribe'}
-                      </Button>
+                      </Button> */}
                     </div>
                   </div>
                 );

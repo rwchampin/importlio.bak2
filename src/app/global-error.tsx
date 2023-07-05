@@ -7,7 +7,7 @@ export default function GlobalError({
   error: Error
   reset: () => void
 }) {
-  alert("tits")
+
   return (
     <html>
       <body className="tits">

@@ -4,7 +4,7 @@ export default function EmailInput() {
             onSubmit={(e) => e.preventDefault()} 
             className="max-w-md px-4 mx-auto mt-12">
                 <div>
-                    <label for="email" className="block py-3 text-gray-500">
+                    <label htmlFor="email" className="block py-3 text-gray-500">
                         Your Email
                     </label>
                     <div className="flex items-center p-2 border rounded-md">
@@ -16,7 +16,7 @@ export default function EmailInput() {
                             type="email"
                             placeholder="name@floatui.com"
                             id="email"
-                            className="w-full p-1 ml-3 text-gray-500 outline-none bg-transparent"
+                            className="w-full bg-red-600 outline-none border-none ml-3 text-gray-500 bg-transparent"
                         />
                     </div>
                 </div>

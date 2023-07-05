@@ -1,8 +1,8 @@
-import LoadScene from "./components/LoadScene";
+import {CanvasManager} from "@/components";
 
 export default function Loading() {
 
   return (
-    <div>Loading</div>
+    <CanvasManager />
   );
 }

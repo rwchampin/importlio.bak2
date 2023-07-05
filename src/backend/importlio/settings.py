@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'rest_auth.registration',
     'proxy',
     'product',
+    'oauth2_provider',
+    'user_profile',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +58,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 
 ]
 
@@ -153,11 +154,21 @@ CORS_ALLOWED_ORIGINS = [
 ]
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10
+    'PAGE_SIZE': 10,
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),  
 }
 
 PROXY_API_URL = 'https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc'
 
+AUTH_USER_MODEL='user_profile.UserProfile'
+
+LOGIN_URL='/admin/login/'
 
 # settings.py
 LOGGING = {
@@ -182,3 +193,16 @@ LOGGING = {
         'level': 'DEBUG',
     },
 }
+AUTHENTICATION_BACKENDS = (
+    'oauth2_provider.backends.OAuth2Backend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+OAUTH2_PROVIDER = {
+    # Set the token expiration time (in seconds)
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,
+    # Customize the scopes for your application
+    'SCOPES': {'read': 'Read scope', 'write': 'Write scope'},
+}
+
+
+# AUTH_USER_MODEL = 'importlio.UserProfile'

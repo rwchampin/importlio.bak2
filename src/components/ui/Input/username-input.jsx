@@ -1,7 +1,7 @@
     export default function UsernameInput() {
     return (
         <div className="max-w-md px-4 mx-auto mt-12">
-            <label for="username" className="block py-2 text-gray-500">
+            <label htmlFor="username" className="block py-2 text-gray-500">
                 Username
             </label>
             <div className="flex items-center text-gray-400 border rounded-md">

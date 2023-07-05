@@ -1,13 +1,7 @@
-"use client";
+'use client'
 
-import * as R3F from '@react-three/fiber';
-import * as THREE from 'three';
-import * as Drei from '@react-three/drei';
+import { r3f } from '@/yutils/helpers'
 
-const CoreAnimation = {
-    ...R3F,
-    ...THREE,
-    ...Drei
+export const Three = ({ children }) => {
+  return <r3f.In>{children}</r3f.In>
 }
-
-export default CoreAnimation;

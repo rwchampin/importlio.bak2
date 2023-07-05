@@ -3,8 +3,8 @@ export default function TextInput(props) {
     <div>
       {props.children && (
         <label
-          for={props.id}
-          class="block text-sm text-gray-500 dark:text-gray-300"
+        htmlFor={props.id}
+          classname="block text-sm text-gray-500 dark:text-gray-300"
         >
           {props.label}
         </label>

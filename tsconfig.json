@@ -15,9 +15,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*", "./src/app"],
-      "@/styles/*": ["./src/assets/styles/*"],
-      "@/components/*": ["./src/components/*", "./src/app/components/*"],
+      "styles": ["./src/assets/styles/*"],
+      "components": ["./src/components/*", "./src/app/components/*" ],
+      "@/*": ["./src/*"],
     },
     "incremental": true,
     "plugins": [
@@ -26,6 +26,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/layout/Footer/index.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/layout/Footer/index.jsx", "src/components/ui/Canvas/index.js"],
   "exclude": ["node_modules"]
 }
